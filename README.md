@@ -54,9 +54,10 @@
               sort(a);
               assert(isSorted(a));
               show(a);
-          }
-        }
-  
-  
+           }
+         }
+
+
+
 结果：A E E L M O P R S T X 
 
