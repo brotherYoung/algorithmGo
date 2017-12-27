@@ -54,8 +54,8 @@
               sort(a);
               assert(isSorted(a));
               show(a);
-           }
-         }
+            }
+            }
 
 
 
