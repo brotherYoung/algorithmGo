@@ -38,7 +38,8 @@
 
         public class Selection extends Example {
 
-          //逐次选择右边最小数据排入左边。
+
+          //逐次选择右边最小数据排入左边。
           public static void sort(Comparable[] a) {
               for(int i = 0; i < a.length; i ++) {
                   int min = i;
