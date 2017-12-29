@@ -34,12 +34,12 @@
           }
       }
 
-1. 简单排序
+1. 选择排序
 
         public class Selection extends Example {
 
-          public static void sort(Comparable[] a) {
-
+          //逐次选择右边最小数据排入左边。
+          public static void sort(Comparable[] a) {
               for(int i = 0; i < a.length; i ++) {
                   int min = i;
                   for(int j = i + 1; j < a.length; j ++) {
@@ -62,7 +62,7 @@
 结果：A E E L M O P R S T X 
 
 
-2.插入排序
+2. 插入排序
 
       public class Insertion extends Example {
 
