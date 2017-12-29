@@ -61,3 +61,27 @@
 
 结果：A E E L M O P R S T X 
 
+
+2.插入排序
+
+      public class Insertion extends Example {
+
+            //插入排序左边有序，右边数据待插入。
+            public static void sort(Comparable[] a) {
+                  for(int i = 1; i < a.length; i ++) {
+                        for(int j = i; j > 0 && less(a[j], a[j-1]); j --) {
+                              exch(a, j, j-1);
+                        }
+                  }
+            }
+
+
+            public static void main(String[] args) {
+                  String[] a = {"S","O","R","T","E","X","A","M","P","L","E"};
+                  sort(a);
+                  if(isSorted(a)) show(a);
+            }
+
+      }
+      
+结果：A E E L M O P R S T X
