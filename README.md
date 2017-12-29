@@ -64,7 +64,8 @@
 
 2. 插入排序
 
-      public class Insertion extends Example {
+
+       public class Insertion extends Example {
 
             //插入排序左边有序，右边数据待插入。
             public static void sort(Comparable[] a) {
@@ -84,4 +85,5 @@
 
       }
       
+
 结果：A E E L M O P R S T X
